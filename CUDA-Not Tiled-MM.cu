@@ -33,11 +33,11 @@ int main() {
     int *c = (int *)malloc(n * m * sizeof(int));
 
     for (int i = 0; i < n * k; ++i) {
-        a[i] = 1;
+        a[i] = rand() % 10;
     }
 
     for (int i = 0; i < k * m; ++i) {
-        b[i] = 1;
+        b[i] = rand() % 10;
     }
 
     
